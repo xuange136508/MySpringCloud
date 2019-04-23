@@ -20,6 +20,8 @@
             <groupId>com.study.springboot</groupId>
             <artifactId>springcloud_api</artifactId>
             <version>${project.version}</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/../springcloud_api/target/springcloud_api-1.0-SNAPSHOT.jar</systemPath>
         </dependency>
         <!-- actuator监控信息完善 -->
         <dependency>
