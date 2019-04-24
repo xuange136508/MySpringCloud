@@ -144,6 +144,8 @@
     <!--
          cd /home/sh
         ./springcloud.sh springcloud_provider_8001 8001
+
+        测试: http://120.79.39.181:8001/dept/get/1
     -->
 
 </project>
