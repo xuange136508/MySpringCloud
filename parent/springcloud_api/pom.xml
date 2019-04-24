@@ -27,5 +27,8 @@
 
     </dependencies>
 
+    <build>
+        <finalName>springcloud_api</finalName>
+    </build>
 
 </project>

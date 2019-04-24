@@ -28,4 +28,8 @@
             <artifactId>spring-boot-devtools</artifactId>
         </dependency>
     </dependencies>
+
+    <build>
+        <finalName>springcloud_eureka01</finalName>
+    </build>
 </project>

@@ -50,5 +50,7 @@
         </dependency>
 
     </dependencies>
-
+    <build>
+        <finalName>springcloud_consumer</finalName>
+    </build>
 </project>
