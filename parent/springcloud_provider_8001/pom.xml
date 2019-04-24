@@ -95,11 +95,11 @@
         <finalName>springcloud_provider_8001</finalName>
         <plugins>
             <plugin>
-                <!-- Build an executable JAR -->
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-                <version>3.1.0</version>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
@@ -111,4 +111,9 @@
             </plugin>
         </plugins>
     </build>
+    <!--
+         cd /home/sh
+        ./springcloud.sh springcloud_provider_8001 8001
+    -->
+
 </project>
