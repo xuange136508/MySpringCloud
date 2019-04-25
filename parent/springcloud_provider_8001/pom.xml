@@ -100,7 +100,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
-        
+
         <!--<plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
