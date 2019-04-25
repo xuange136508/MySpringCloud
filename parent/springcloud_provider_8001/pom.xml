@@ -98,6 +98,18 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <!-- 指定该Main Class为全局的唯一入口 -->
+                    <mainClass>com.springcloud.provide.Main</mainClass>
+                    <layout>ZIP</layout>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal><!--可以把依赖的包都打包到生成的Jar包中-->
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
 
@@ -126,12 +138,13 @@
                     </execution>
                 </executions>
             </plugin>
-
         </plugins>-->
     </build>
     <!--
          cd /home/sh
         ./springcloud.sh springcloud_provider_8001 8001
+        测试: http://120.79.39.181:8001/dept/get/1
     -->
+
 
 </project>
