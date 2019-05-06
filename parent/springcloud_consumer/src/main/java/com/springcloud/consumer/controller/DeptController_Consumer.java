@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
-
+//测试 http://120.79.39.181:8003/consumer/dept/get/1
 @RestController
 public class DeptController_Consumer
 {
